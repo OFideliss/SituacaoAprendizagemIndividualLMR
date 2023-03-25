@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="titulo">Página de Cadastro</h1>
+    <p class="paragrafo">Prencha corretamenta os itens a seguir. A senha será enviada para seu email em no
+        máximo 30
+        minutos.</p>
+    <div class="formulario">
+        <form>
+            <div class="nome">
+                <label for="pnome" title="nome">Nome:</label>
+                <input type="text" name="nome" id="pnome" placeholder="Seu Nome" />
+            </div>
+            <br>
+            <div class="email">
+                <label for="pmail" title="Mail">E-mail:</label>
+                <input type="text" name="e-mail" id="pmail" placeholder="Email válido" />
+            </div>
+            <br>
+            <div class="sexo">
+                Sexo:
+                <br>
+                <INPUT TYPE="RADIO" NAME="sexo" VALUE="f"> Feminino <br>
+                <INPUT TYPE="RADIO" NAME="sexo" VALUE="m"> Masculino <br>
+            </div>
+            <br>
+            <div class="estadoCivil">
+                Estado Civil:<br>
+                <INPUT TYPE="RADIO" NAME="civil" VALUE="s"> Solteiro <br>
+                <INPUT TYPE="RADIO" NAME="civil" VALUE="c"> Casado <br>
+                <INPUT TYPE="RADIO" NAME="civil" VALUE="v"> Viúvo <br><br>
+            </div>
+            <br>
+            <div class="escolaridade">
+                Escolaridade: <SELECT NAME="escolaridade">
+                    <OPTION VALUE="Educação infantil">Educação Infantil
+                    <OPTION VALUE="Ensino fundamental">Ensino Fundamental
+                    <OPTION VALUE="Ensino médio"> Ensino Médio
+                    <OPTION VALUE="Ensino superior"> Ensino Superior
+                </SELECT>
+            </div>
+            <br>
+            <div class="enviar">
+                <INPUT TYPE="SUBMIT" VALUE="Enviar os dados">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
